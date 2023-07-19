@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 8rem;
+}
+.container div{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+   
+}
+.container div img{
+    width: 30px;
+}
+.container div:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+}
+.second{
+    display: flex;
+    gap: 25px;
+}

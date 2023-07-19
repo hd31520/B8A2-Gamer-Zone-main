@@ -87,6 +87,7 @@
     padding-top: 200px;
 }
 .description{
+    
     padding-left: 300px;
     padding-right: 100px;
     max-width: 50%;
@@ -96,6 +97,10 @@
 }
 .section3{
     width: 50%;
+}
+.instant{
+  color: #F948B2;
+    
 }
 .description img{
     width: 100%;
