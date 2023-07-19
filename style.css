@@ -172,4 +172,28 @@ header nav ul a{
 
 
 
-/*  */
+/*  res mobile*/
+@media screen and (max-width: 576px) {
+    header nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column; 
+        height: auto;
+        position: relative;
+    }
+        /* main */
+    .section1{
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        position: relative;
+    }  
+    .section1-div1{
+        padding: 300px 0;
+        padding-bottom: 500px;
+       
+    }  
+}
