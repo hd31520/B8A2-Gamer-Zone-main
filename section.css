@@ -4,6 +4,7 @@
     padding: 0 150px;
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 .section1-h3{
@@ -48,6 +49,9 @@
     font-weight: 700;
     line-height: 3rem;
 }
+
+
+/* section2 Start */
 .section2{
     padding-top: 100px;
 }
@@ -60,3 +64,40 @@
 }.section2 p{
     text-align: center;
 }
+.section2-main{
+    display: flex;
+   justify-content: center;
+    padding: 40px 120px;
+    gap: 30px;
+}
+.section2-main div{
+    width: 340px;
+   
+}
+.section2-main div img{
+    max-width: 100%;
+}
+.section2-main div img:hover{
+    color: royalblue;
+}
+/* .img1{
+    width: 320px;
+    height: 400px;
+    background-image: url('images/Rectangle 4.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+} */
+/* .hover{
+    
+    width: max-content;
+}
+.hover:hover{
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+} */
