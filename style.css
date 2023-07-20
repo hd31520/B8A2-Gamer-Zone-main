@@ -544,7 +544,9 @@ grid-area: myArea;
         height: 1000px;
     }
     .alada{
-        padding: 8px;
+        display: flex;
+        gap: 5px;
+       
     }
         /* main */
 
