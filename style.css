@@ -247,7 +247,7 @@ header nav ul a{
     gap: 30px;
 }
 .section2-main div{
-    width: 340px;
+    width: 280px;
    
 }
 .section2-main div img{
@@ -256,30 +256,108 @@ header nav ul a{
 .section2-main div img:hover{
     color: royalblue;
 }
+.hover-play{
+    display: none;
+}
+ #img1:hover .hover-play{
+    cursor: pointer;
+    display: block;
+    height: 320px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 167, 45, 0.37);
+    position: relative;
+    bottom: 330px;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 0, 0);
+    
+    
+    /* bottom: px; */
+}
+ #img2:hover .hover-play{
+    cursor: pointer;
+    display: block;
+    height: 320px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 167, 45, 0.37);
+    position: relative;
+    bottom: 330px;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 0, 0);
+    
+    
+    /* bottom: px; */
+}
+  #img3:hover .hover-play{
+    cursor: pointer;
+    display: block;
+    height: 320px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 167, 45, 0.37);
+    position: relative;
+    bottom: 330px;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 0, 0);
+    
+    
+    /* bottom: px; */
+}
+  #img4:hover .hover-play{
+    cursor: pointer;
+    display: block;
+    height: 320px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(49, 167, 45, 0.37);
+    position: relative;
+    bottom: 330px;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 0, 0);
+    
+    
+    /* bottom: px; */
+}
+
+
 /* .section2-main div img:hover{
     text
 } */
 .section3{
-    padding-top: 200px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .description{
     
-    padding-left: 300px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     max-width: 50%;
 }
 .section3{
     display: flex;
 }
-.section3{
-    width: 50%;
-}
+
 .instant{
   color: #F948B2;
     
 }
 .description div img{
-    width: 100%;
+    width: 400px;
     
 
 }
@@ -303,9 +381,9 @@ header nav ul a{
 
 }
 
-.section3{
-    margin-bottom: 150px;
-}
+/* .section3{
+    margin-bottom: 10px;
+} */
 
 .image-position{
     display: flex;
@@ -315,6 +393,13 @@ header nav ul a{
 
 
 /* small */
+
+.buttonsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .container{
     display: flex;
     gap: 1rem;
@@ -443,13 +528,16 @@ grid-area: myArea;
 
 
 /*  res mobile*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width:676px) {
+    
+
     header nav{
         height: auto;
         display: flex;
         flex-direction: column;
     }
-    .banner{
+    #banner{
+        display: flex;
         flex-direction: column; 
         height: auto;
         position: relative;
@@ -476,6 +564,7 @@ grid-area: myArea;
     
 /* Section 2 */
     .section2-main{
+        display: flex;
         flex-direction: column;
     }
 
@@ -550,5 +639,4 @@ footer section ul li{
 .footr-description{
     padding: 10px;
 }
-
 }
