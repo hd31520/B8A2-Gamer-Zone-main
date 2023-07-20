@@ -548,6 +548,17 @@ grid-area: myArea;
         gap: 5px;
        
     }
+    .right-corner {
+      
+        width: 11rem;
+        height: 3rem;
+        flex-shrink: 0;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        
+    }
         /* main */
 
         /* Section1 */
@@ -647,5 +658,12 @@ footer section ul li{
 
 .footr-description{
     padding: 10px;
+}
+.container-visible div{
+ align-items: center;
+ justify-content: center;
+}
+.container-visible div img{
+    max-width: 25px;
 }
 }
