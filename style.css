@@ -543,6 +543,9 @@ grid-area: myArea;
         position: relative;
         height: 1000px;
     }
+    .alada{
+        padding: 8px;
+    }
         /* main */
 
         /* Section1 */
@@ -584,6 +587,7 @@ grid-area: myArea;
     .image-position{
         display: flex;
         flex-direction: column;
+        max-width: 400px;
     }
 #arman {
     max-width: 150px;
