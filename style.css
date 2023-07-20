@@ -528,7 +528,7 @@ grid-area: myArea;
 
 
 /*  res mobile*/
-@media screen and (max-width:676px) {
+@media screen and (max-width:672px) {
     
 
     header nav{
@@ -587,7 +587,7 @@ grid-area: myArea;
     .image-position{
         display: flex;
         flex-direction: column;
-        max-width: 400px;
+        max-width: 350px;
     }
     .image-position img{
         width: 100%;
