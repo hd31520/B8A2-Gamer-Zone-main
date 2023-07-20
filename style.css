@@ -589,6 +589,9 @@ grid-area: myArea;
         flex-direction: column;
         max-width: 400px;
     }
+    .image-position img{
+        width: 100%;
+    }
 #arman {
     max-width: 150px;
     height: 100%;
