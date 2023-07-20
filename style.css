@@ -577,7 +577,7 @@ grid-area: myArea;
         
     }  
     .section1-div1{
-        padding: 30px 100px;
+        padding: 30px 50px;
         padding-bottom: 50px;
        
     }  
@@ -655,7 +655,8 @@ footer{
 }
 
 footer section ul li{
-    padding: 10px;
+    font-size: 12px;
+    padding: 5px;
 }
 
 .socail-icon{
