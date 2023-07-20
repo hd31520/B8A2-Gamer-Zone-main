@@ -575,19 +575,19 @@ grid-area: myArea;
     /* Section3 */
     .section3{
         flex-direction: column;
-        padding-left: 150px;
+        padding-left: 100px;
         justify-content: center;
     }
     .description {
         padding-left: 0px;
         padding-right: 0px;
-        width: 500pxpx;
+        width: 500px;
  
     }
     .image-position{
         display: flex;
         flex-direction: column;
-        max-width: 350px;
+        max-width: 300px;
     }
     .image-position img{
         width: 100%;
